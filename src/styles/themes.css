@@ -1,0 +1,29 @@
+.theme-default {
+  --bg: #ffffff;
+  --text: #1f2937;
+  --font: 'Inter', sans-serif;
+}
+
+.theme-dark {
+  --bg: #111827;
+  --text: #f3f4f6;
+  --font: 'Georgia', serif;
+  --weight: 900;
+
+}
+
+
+.theme-colorful {
+  --bg: #fff0f6;
+  --text: #0f172a;
+  --font: 'Pacifico', cursive;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-weight: var(--weight);
+   transition: all 0.3s ease-in-out;
+}
+
